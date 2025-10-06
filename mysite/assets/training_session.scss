@@ -1,0 +1,109 @@
+/* presentation-usc.scss — USC colors, Calibri stack, YAML-driven logo */
+
+/*-- scss:defaults --*/
+
+/* Colors */
+$usc-garnet: #73000a;
+$usc-black:  #000000;
+$usc-white:  #ffffff;
+
+/* Typography: PPT-friendly */
+$font-family-sans-serif: "Calibri", "Helvetica Neue", Arial, sans-serif !default;
+$presentation-heading-font: "Calibri Light", "Calibri", "Helvetica Neue", Arial, sans-serif !default;
+
+/* Content colors */
+$body-color: #111111 !default;
+$link-color: #0563c1 !default;
+$code-color: #9E71FE !default;
+$dark-bg-code-color: lighten($code-color, 15%);
+$light-bg-code-color: darken($code-color, 15%);
+
+/*-- scss:rules --*/
+
+/* Base reveal canvas + text + links */
+.reveal { color: $body-color; background-color: $usc-white; }
+.reveal a { color: $link-color; }
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: $presentation-heading-font;
+  color: $usc-black;
+  font-weight: 300;
+}
+
+/* Slide canvas (no positioning anchor here to avoid overflow issues) */
+.reveal .slides section {
+  background: $usc-white;
+  color: $body-color;
+  font-family: $font-family-sans-serif;
+  font-size: 1.2em;
+  /* position: relative;  <-- intentionally omitted */
+}
+
+/* Heading sizes */
+.reveal .slides section h1 { font-size: 3.0em; }
+.reveal .slides section h2 { font-size: 2.0em; }
+.reveal .slides section h3 { font-size: 1.5em; }
+.reveal .slides section h4 { font-size: 1.5em; }
+
+/* Optional: bigger title on manual title slide */
+.reveal .title-slide h1 { font-size: 3.2em; }
+
+/* Manual title slide layout */
+section.title-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;              /* fixed height to prevent vertical overflow */
+  padding: 0 2rem;           /* small side padding for long titles */
+}
+section.title-slide h1,
+section.title-slide h2 {
+  font-size: 3.2em;
+  margin: 0;
+  color: #000;
+  font-weight: 300;          /* Calibri Light look */
+}
+section.title-slide .subtitle {
+  margin-top: .25em;
+  font-size: 1.6em;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 300;
+}
+section.title-slide .byline {
+  margin-top: .6em;
+  font-size: 1.1em;
+  color: #111;
+}
+
+/* Utility */
+.rotate {
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+}
+
+/* ===== YAML logo (logo:) sizing/placement =====
+   Keep a single, consistent rule-set.
+   Quarto injects an element with class .slide-logo.
+*/
+
+/* Size the logo and remove max constraints */
+.reveal img.slide-logo,
+.reveal .slide-logo,
+.reveal .slide-logo img {
+  height: 60px !important;     /* adjust if you want it larger/smaller */
+  width: auto !important;
+  max-height: none !important;
+  max-width: none !important;
+}
+
+/* Position the logo bottom-right */
+.reveal img.slide-logo,
+.reveal .slide-logo {
+  position: absolute !important;
+  right: 12px; bottom: 12px;
+  left: auto; top: auto;
+  z-index: 10;
+}

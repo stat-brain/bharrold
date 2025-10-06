@@ -1,0 +1,164 @@
+---
+format:
+  revealjs:
+    title-slide: false
+    logo: garnetlogo.png
+    width: 1600
+    height: 900
+    preview-links: auto
+    scrollable: false
+    slide-number: true
+    show-slide-number: all
+    controls: true
+    background-transition: fade
+    fig-align: center
+    center-title-slide: false
+    navigation-mode: linear
+    theme: [simple, training_session.scss]
+    html-math-method: mathjax
+    embed-resources: true
+draft: false
+---
+
+# Creating a Personal Website {.title-slide}
+<div class="subtitle">Using GitHub, RStudio, and Quarto</div>
+<div class="byline"><strong>Brian Harrold</strong><br>October 7, 2025</div>
+
+## Motivation
+
+
+
+## Agenda
+
+- Getting started with GitHub
+- Ready to roll with RStudio
+- Quick guide to Quarto
+- Customizing your content
+
+# GitHub
+
+## Create a New Repository
+
+1. Log in
+2. Click the green "New" button
+3. Name it
+
+## Some Details
+
+- Give it a professional-sounding name
+- Add a description
+- Choose "Public" visibility
+- Add a README file
+
+## Why Public?
+
+If you want GitHub Pages to host your website for free, then the repository must be public. If you make your repository private, then you have to pay for GitHub to host your website.
+
+## Create
+
+Click "Create"
+
+
+::: {.fragment}
+Once created, copy the link to your repository from the URL
+:::
+
+# RStudio
+
+## Open the Repository
+
+1. Open RStudio
+2. File -> New Project -> Version Control -> Git
+3. Paste the URL (everything else should auto-fill)
+4. Choose a subdirectory
+5. Click "Create Project"
+
+## Check it
+
+Project name should match the repository
+
+## Open a Terminal
+
+Tools -> Terminal -> New Terminal
+
+# Quarto
+
+## In the Terminal
+
+`quarto create-project mysite --type website`
+
+## New Folder
+
+Open the new folder mysite/ in the Files pane.
+
+* `_quarto.yml`
+* `index.qmd`
+* `about.qmd`
+* `styles.css`
+
+## In `_quarto.yml`
+
+```yaml
+project:
+  type: website
+  output-dir: ../docs
+```
+
+## In the Terminal
+
+`quarto render mysite/`
+
+## Pushing to GitHub
+
+Under Git Options
+
+1. Commit... (Ctrl+Alt+M)
+2. Check to "Stage" all updates
+3. Add a commit message
+4. Press Commit
+5. Press Push
+
+## Deploying Pages
+
+In GitHub: 
+
+1. Settings
+2. Pages
+3. Source = Deploy from branch
+4. Choose `main` and `/docs` from the drop downs
+
+## Showing the link
+
+1. Go to repository's homepage
+2. Locate the About section
+3. Click the gear (Settings)
+4. Check the box "Use Your GitHub Pages Website"
+5. Click Save Settings
+
+# Customization
+
+
+
+
+
+
+
+
+## YAML
+
+
+
+
+
+
+## Examples
+
+* [My Professional Website](https://stat-brain.github.io/bharrold/)
+* [Built into an R package](https://stat-brain.github.io/cohortED/)
+* [A Great Example (Not Mine)](https://silviacanelon.com/)
+
+::: {.fragment}
+Note: you can get a domain name and use that with your GitHub website
+:::
+
+# Thank you!
