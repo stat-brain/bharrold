@@ -26,7 +26,10 @@ draft: false
 
 ## Motivation
 
-
+- **Show real work:** authentic portfolio of papers, posters, code, datasets, and notebooks.
+- **Reproducible examples:** Quarto notebooks with math/citations.
+- **Real tooling & credibility:** Git/GitHub workflow; issues/PRs show collaboration and history.
+- **Own it + publish fast:** portable repo, custom domain, free hosting via GitHub Pages.
 
 ## Agenda
 

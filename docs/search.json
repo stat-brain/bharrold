@@ -18,7 +18,7 @@
     "href": "assets/training_session.html#motivation",
     "title": "mysite",
     "section": "Motivation",
-    "text": "Motivation"
+    "text": "Motivation\n\nShow real work: authentic portfolio of papers, posters, code, datasets, and notebooks.\nReproducible examples: Quarto notebooks with math/citations.\nReal tooling & credibility: Git/GitHub workflow; issues/PRs show collaboration and history.\nOwn it + publish fast: portable repo, custom domain, free hosting via GitHub Pages."
   },
   {
     "objectID": "assets/training_session.html#agenda",
