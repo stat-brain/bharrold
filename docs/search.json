@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching Timeline",
     "section": "",
-    "text": "Open Full Screen"
+    "text": "Spring 2025 Two Thumbs Up Recognition Ceremony - Invited Speaker\nFall 2024 Two Thumbs Up Recognition\nFall 2024 Thank-a-Teacher Certificate of Recognition"
+  },
+  {
+    "objectID": "teaching.html#recognitions",
+    "href": "teaching.html#recognitions",
+    "title": "Teaching Timeline",
+    "section": "",
+    "text": "Spring 2025 Two Thumbs Up Recognition Ceremony - Invited Speaker\nFall 2024 Two Thumbs Up Recognition\nFall 2024 Thank-a-Teacher Certificate of Recognition"
+  },
+  {
+    "objectID": "teaching.html#awards",
+    "href": "teaching.html#awards",
+    "title": "Teaching Timeline",
+    "section": "Awards",
+    "text": "Awards\n\n2024-2025 Outstanding Graduate Assistant Award\n2023-2024 Outstanding Graduate Student in Academics Award\n2022-2023 Outstanding First-Year Graduate Student Award"
+  },
+  {
+    "objectID": "teaching.html#teaching-timeline",
+    "href": "teaching.html#teaching-timeline",
+    "title": "Teaching Timeline",
+    "section": "Teaching Timeline",
+    "text": "Teaching Timeline\n\nUniversity of South Carolina (Fall 2022 - current)\nPiedmont Governor’s School for Mathematics, Science, and Technology (Fall 2020 - Spring 2022)\nDanville Community College (Spring 2015 - Spring 2022)\nPittsylvania County Schools (Fall 2013 - Spring 2020)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Item Response Theory, Network-Based Models"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Item Response Theory, Network-Based Models"
+  },
+  {
+    "objectID": "research.html#internships",
+    "href": "research.html#internships",
+    "title": "Research",
+    "section": "Internships",
+    "text": "Internships\n\nJune 2025 - July 2025 Center for Assessment\nJanuary 2025 - March 2025 Southeast Crescent Regional Commission\nJuly 2024 - December 2024 Curriculum Associates"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brian Harrold",
+    "section": "",
+    "text": "Hi, I’m Brian\nI’m a graduate student in statistics at the University of South Carolina. This site shares my research, teaching materials, and R/Quarto tools.\n\n\n\n\nI build reproducible R/Quarto workflows for education data—bridging research, teaching, and open-source tools.\n\n\nResearch Teaching Presentations About"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Nothing here…yet"
   },
   {
     "objectID": "about.html",
@@ -126,6 +182,13 @@
     "text": "Showing the link\n\nGo to repository’s homepage\nLocate the About section\nClick the gear (Settings)\nCheck the box “Use Your GitHub Pages Website”\nClick Save Settings"
   },
   {
+    "objectID": "assets/training_session.html#components",
+    "href": "assets/training_session.html#components",
+    "title": "Brian Harrold",
+    "section": "Components",
+    "text": "Components\n\n_quarto.yml = Website Structure\n*.qmd = Website Content\nstyles.css = Website Formatting"
+  },
+  {
     "objectID": "assets/training_session.html#quarto.yml-project",
     "href": "assets/training_session.html#quarto.yml-project",
     "title": "Brian Harrold",
@@ -147,6 +210,20 @@
     "text": "_quarto.yml Format\nformat:\n  html:\n    theme:\n      - cosmo              # base Bootswatch\n      - brand              # your SCSS theme (optional)\n    css: styles.css        # extra tweaks (optional)\n    toc: true              # page sidebar\n    toc-location: right\n    anchor-sections: true  # adds linkable headings"
   },
   {
+    "objectID": "assets/training_session.html#qmd-content",
+    "href": "assets/training_session.html#qmd-content",
+    "title": "Brian Harrold",
+    "section": "*.qmd Content",
+    "text": "*.qmd Content\nWorks like R Markdown\n\nYAML at the top of the document\nFormatting is similar\nAdd content, text, code, etc."
+  },
+  {
+    "objectID": "assets/training_session.html#qmd-yaml",
+    "href": "assets/training_session.html#qmd-yaml",
+    "title": "Brian Harrold",
+    "section": "*.qmd YAML",
+    "text": "*.qmd YAML\n---\ntitle: \"Brian Harrold\"\nformat: html\ntitle-block-banner: assets/banner.jpeg\npage-layout: full\ntoc: false\n---"
+  },
+  {
     "objectID": "assets/training_session.html#examples",
     "href": "assets/training_session.html#examples",
     "title": "Brian Harrold",
@@ -154,10 +231,31 @@
     "text": "Examples\n\nMy Professional Website\nBuilt into an R package\nA Great Example (Not Mine)\n\n\nNote: you can get a domain name and use that with your GitHub website"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Brian Harrold",
+    "objectID": "college.html",
+    "href": "college.html",
+    "title": "College-Level Teaching",
     "section": "",
-    "text": "Hi, I’m Brian\nI’m a graduate student in statistics at the University of South Carolina. This site shares my research, teaching materials, and R/Quarto tools.\n\n\n\n\nI build reproducible R/Quarto workflows for education data—bridging research, teaching, and open-source tools.\n\n\nResearch Teaching Presentations About"
+    "text": "Lecture Instructor: STAT 201 (Elementary Statistics\nTerms: Fall 2025, Spring 2025, Fall 2024, Spring 2024, Fall 2023\nLab Instructor: STAT 201 (Elementary Statistics)\nTerms: Summer 2023, Spring 2023, Fall 2022"
+  },
+  {
+    "objectID": "college.html#university-of-south-carolina",
+    "href": "college.html#university-of-south-carolina",
+    "title": "College-Level Teaching",
+    "section": "",
+    "text": "Lecture Instructor: STAT 201 (Elementary Statistics\nTerms: Fall 2025, Spring 2025, Fall 2024, Spring 2024, Fall 2023\nLab Instructor: STAT 201 (Elementary Statistics)\nTerms: Summer 2023, Spring 2023, Fall 2022"
+  },
+  {
+    "objectID": "college.html#danville-community-college",
+    "href": "college.html#danville-community-college",
+    "title": "College-Level Teaching",
+    "section": "Danville Community College",
+    "text": "Danville Community College\n\nDual Enrollment Instructor: MTH 264 (Calculus II)\nTerms: Fall 2021/Spring 2022, Fall 2020/Spring 2021\nDual Enrollment Instructor: MTH 264 (Calculus II)\nTerms: Fall 2021/Spring 2022, Fall 2020/Spring 2021\nDual Enrollment Instructor: MTH 162 (Pre-Calculus II)\nTerms: Spring 2020, Fall 2018\nDual Enrollment Instructor: MTH 161 (Pre-Calculus I)\nTerms: Spring 2020, Fall 2018\nDual Enrollment Instructor: MTH 155 (Statistical Reasoning)\nTerms: Fall 2019, Spring 2019\nDual Enrollment Instructor: MTH 164 (Pre-Calculus II)\nTerms: Spring 2020, Fall 2018\nDual Enrollment Instructor: MTH 163 (Pre-Calculus I)\nTerms: Spring 2018, Fall 2017\nDual Enrollment Instructor: MTH 157 (Intro to College Statistics)\nTerms: Spring 2018, Spring 2017, Spring 2016, Spring 2015"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Open Full Screen"
   }
 ]

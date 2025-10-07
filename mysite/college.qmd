@@ -6,8 +6,26 @@ toc: true
 
 ## University of South Carolina
 
-**STAT 201 - Elementary Statistics**
- - **Lecture Instructor:** Fall 
- - **Lab Instructor:**
+- **Lecture Instructor:** STAT 201 (Elementary Statistics  
+  **Terms:** Fall 2025, Spring 2025, Fall 2024, Spring 2024, Fall 2023
+- **Lab Instructor:** STAT 201 (Elementary Statistics)  
+  **Terms:** Summer 2023, Spring 2023, Fall 2022
  
 ## Danville Community College
+
+- **Dual Enrollment Instructor:** MTH 264 (Calculus II)  
+  **Terms:** Fall 2021/Spring 2022, Fall 2020/Spring 2021
+- **Dual Enrollment Instructor:** MTH 264 (Calculus II)  
+  **Terms:** Fall 2021/Spring 2022, Fall 2020/Spring 2021
+- **Dual Enrollment Instructor:** MTH 162 (Pre-Calculus II)  
+  **Terms:** Spring 2020, Fall 2018
+- **Dual Enrollment Instructor:** MTH 161 (Pre-Calculus I)  
+  **Terms:** Spring 2020, Fall 2018
+- **Dual Enrollment Instructor:** MTH 155 (Statistical Reasoning)  
+  **Terms:** Fall 2019, Spring 2019
+- **Dual Enrollment Instructor:** MTH 164 (Pre-Calculus II)  
+  **Terms:** Spring 2020, Fall 2018
+- **Dual Enrollment Instructor:** MTH 163 (Pre-Calculus I)  
+  **Terms:** Spring 2018, Fall 2017
+- **Dual Enrollment Instructor:** MTH 157 (Intro to College Statistics)  
+  **Terms:** Spring 2018, Spring 2017, Spring 2016, Spring 2015

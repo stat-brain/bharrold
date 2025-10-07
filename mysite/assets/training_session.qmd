@@ -145,6 +145,12 @@ In GitHub:
 
 # Customization
 
+## Components
+
+- `_quarto.yml` = Website Structure
+- `*.qmd` = Website Content
+- `styles.css` = Website Formatting
+
 ## `_quarto.yml` Project
 
 ```yaml
@@ -195,6 +201,28 @@ format:
     toc-location: right
     anchor-sections: true  # adds linkable headings
 ```
+
+## `*.qmd` Content
+
+Works like R Markdown
+
+- YAML at the top of the document
+- Formatting is similar
+- Add content, text, code, etc.
+
+## `*.qmd` YAML
+
+```yaml
+---
+title: "Brian Harrold"
+format: html
+title-block-banner: assets/banner.jpeg
+page-layout: full
+toc: false
+---
+```
+
+
 
 ## Examples
 

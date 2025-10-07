@@ -1,1 +1,13 @@
-/* css styles */
+/* Make the banner taller and choose which part of the image to show */
+.quarto-title-block .quarto-title-banner {
+  min-height: 320px;            /* try 280–420px, or use 35vh below */
+  background-position: center 35%; /* 0%=top, 50%=center, 100%=bottom */
+}
+
+/* Optional: scale height by screen size */
+@media (min-width: 992px) {
+  .quarto-title-block .quarto-title-banner { min-height: 40vh; }
+}
+@media (max-width: 575.98px) {
+  .quarto-title-block .quarto-title-banner { min-height: 220px; }
+}

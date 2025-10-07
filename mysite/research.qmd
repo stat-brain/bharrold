@@ -1,5 +1,20 @@
 ---
-title: "research"
+title: "Research"
 format: html
+toc: true
 ---
+
+## Research Interests
+
+Item Response Theory, Network-Based Models
+
+## Internships
+
+- **June 2025 - July 2025** Center for Assessment
+- **January 2025 - March 2025** Southeast Crescent Regional Commission
+- **July 2024 - December 2024** Curriculum Associates
+
+
+
+
 
