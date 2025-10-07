@@ -7,16 +7,20 @@ toc: false
 ---
 
 
-# Hi, I’m Brian
+## Graduate Student in Statistics, University of South Carolina
 
-I’m a graduate student in statistics at the University of South Carolina. This site shares my research, teaching materials, and R/Quarto tools.
+::: {.lead}
+Item Response Theory • Reproducible Reporting & Interactive Apps • Statistics Teaching & Education
+:::
 
 :::: {.columns}
 ::: {.column width="28%"}
 ![](assets/headshot.jpeg){.img-fluid .rounded-circle style="max-width:180px"}
 :::
 ::: {.column width="72%"}
-I build reproducible R/Quarto workflows for education data—bridging research, teaching, and open-source tools.
+- **Research:** Item Response Theory, Cognitive Diagnostic Models, Network-Based Models
+- **Software:** Author of `cohortED` (reproducible reporting for cohort & mobility analysis with education data)
+- **Teaching:** Teacher with over 10 years of experience; currently teaching STAT 201
 :::
 ::::
 

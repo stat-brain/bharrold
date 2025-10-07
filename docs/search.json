@@ -53,7 +53,14 @@
     "href": "index.html",
     "title": "Brian Harrold",
     "section": "",
-    "text": "Hi, I’m Brian\nI’m a graduate student in statistics at the University of South Carolina. This site shares my research, teaching materials, and R/Quarto tools.\n\n\n\n\nI build reproducible R/Quarto workflows for education data—bridging research, teaching, and open-source tools.\n\n\nResearch Teaching Presentations About"
+    "text": "Item Response Theory • Reproducible Reporting & Interactive Apps • Statistics Teaching & Education\n\n\n\n\n\n\nResearch: Item Response Theory, Cognitive Diagnostic Models, Network-Based Models\nSoftware: Author of cohortED (reproducible reporting for cohort & mobility analysis with education data)\nTeaching: Teacher with over 10 years of experience; currently teaching STAT 201\n\n\n\nResearch Teaching Presentations About"
+  },
+  {
+    "objectID": "index.html#graduate-student-in-statistics-university-of-south-carolina",
+    "href": "index.html#graduate-student-in-statistics-university-of-south-carolina",
+    "title": "Brian Harrold",
+    "section": "",
+    "text": "Item Response Theory • Reproducible Reporting & Interactive Apps • Statistics Teaching & Education\n\n\n\n\n\n\nResearch: Item Response Theory, Cognitive Diagnostic Models, Network-Based Models\nSoftware: Author of cohortED (reproducible reporting for cohort & mobility analysis with education data)\nTeaching: Teacher with over 10 years of experience; currently teaching STAT 201\n\n\n\nResearch Teaching Presentations About"
   },
   {
     "objectID": "blog.html",
@@ -224,6 +231,20 @@
     "text": "*.qmd YAML\n---\ntitle: \"Brian Harrold\"\nformat: html\ntitle-block-banner: assets/banner.jpeg\npage-layout: full\ntoc: false\n---"
   },
   {
+    "objectID": "assets/training_session.html#styles.css",
+    "href": "assets/training_session.html#styles.css",
+    "title": "Brian Harrold",
+    "section": "styles.css",
+    "text": "styles.css\n\nLoads after the base theme (cosmo)\nSets fonts\nChanges colors\nPolishes links, codes, etc."
+  },
+  {
+    "objectID": "assets/training_session.html#drop-in-code",
+    "href": "assets/training_session.html#drop-in-code",
+    "title": "Brian Harrold",
+    "section": "Drop-in Code",
+    "text": "Drop-in Code\n@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');\nbody { background: rgba(115,0,10,.06); color:#111; }\nh1,h2,h3,h4 { font-family: \"EB Garamond\", Georgia, serif; }\n.navbar { background:#73000a !important; }\na { color:#73000a; }"
+  },
+  {
     "objectID": "assets/training_session.html#examples",
     "href": "assets/training_session.html#examples",
     "title": "Brian Harrold",
@@ -257,5 +278,12 @@
     "title": "Presentations",
     "section": "",
     "text": "Open Full Screen"
+  },
+  {
+    "objectID": "secondary.html",
+    "href": "secondary.html",
+    "title": "Secondary-Level Teaching",
+    "section": "",
+    "text": "Calculus II\nCalculus I\nIntro to College Statistics\nPre-Calculus\nAdvanced Algebra and Trigonometry\nAlgebra, Functions, and Data Analysis\nGeometry Part 2\nGeometry Part 1\nAlgebra 1 Part 2\nAlgebra 1 Part 1"
   }
 ]

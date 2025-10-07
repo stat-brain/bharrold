@@ -222,6 +222,22 @@ toc: false
 ---
 ```
 
+## `styles.css`
+
+- Loads after the base theme (cosmo)
+- Sets fonts
+- Changes colors
+- Polishes links, codes, etc.
+
+## Drop-in Code
+
+```yaml
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+body { background: rgba(115,0,10,.06); color:#111; }
+h1,h2,h3,h4 { font-family: "EB Garamond", Georgia, serif; }
+.navbar { background:#73000a !important; }
+a { color:#73000a; }
+```
 
 
 ## Examples

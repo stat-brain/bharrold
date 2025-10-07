@@ -1,6 +1,16 @@
 ---
-title: "Secondary-Level Teachign"
+title: "Secondary-Level Teaching"
 format: html
 toc: true
 ---
 
+- Calculus II
+- Calculus I
+- Intro to College Statistics
+- Pre-Calculus
+- Advanced Algebra and Trigonometry
+- Algebra, Functions, and Data Analysis
+- Geometry Part 2
+- Geometry Part 1
+- Algebra 1 Part 2
+- Algebra 1 Part 1
