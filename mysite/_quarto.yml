@@ -32,8 +32,8 @@ website:
             href: teaching.qmd
           - text: College
             href: college.qmd
-          - text: High School
-            href: high-school.qmd
+          - text: Secondary
+            href: secondary.qmd
       - href: presentations.qmd
         text: Presentations
       - href: blog.qmd

@@ -1,5 +1,13 @@
 ---
-title: "college"
+title: "College-Level Teaching"
 format: html
+toc: true
 ---
 
+## University of South Carolina
+
+**STAT 201 - Elementary Statistics**
+ - **Lecture Instructor:** Fall 
+ - **Lab Instructor:**
+ 
+## Danville Community College
