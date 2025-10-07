@@ -4,13 +4,17 @@ format: html
 toc: true
 ---
 
+## Piedmont Governor's School for Mathematics, Science, and Technology
+
 - Calculus II
 - Calculus I
+
+## Pittsylvania County Schools
 - Intro to College Statistics
 - Pre-Calculus
 - Advanced Algebra and Trigonometry
 - Algebra, Functions, and Data Analysis
-- Geometry Part 2
-- Geometry Part 1
+- Geometry Part 2 (including SPED Inclusion)
+- Geometry Part 1 (including SPED Inclusion)
 - Algebra 1 Part 2
 - Algebra 1 Part 1

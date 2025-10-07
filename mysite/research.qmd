@@ -8,11 +8,22 @@ toc: true
 
 Item Response Theory, Network-Based Models
 
+## Conference Presentations
+
+- **NCME 2024** Effects of Various Multidimensional Testlet Models on Ability Standard Errors
+
 ## Internships
 
-- **June 2025 - July 2025** Center for Assessment
-- **January 2025 - March 2025** Southeast Crescent Regional Commission
-- **July 2024 - December 2024** Curriculum Associates
+- **June 2025 - July 2025** Center for Assessment  
+  Develop `cohortED` in `R` as part of a reporting ecosystem
+- **January 2025 - March 2025** Southeast Crescent Regional Commission  
+  Perform classification; Produce maps and reports
+- **July 2024 - December 2024** Curriculum Associates  
+  Literature Review of Machine Learning Methods in Educational Measurement and Item Response Theory
+- **January 2024 - March 2024** Southeast Crescent Regional Commission
+  Perform classification; Produce maps and reports
+- **December 2022 - March 2023** Southeast Crescent Regional Commission  
+  Develop a classification method
 
 
 

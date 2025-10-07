@@ -227,7 +227,7 @@ toc: false
 - Loads after the base theme (cosmo)
 - Sets fonts
 - Changes colors
-- Polishes links, codes, etc.
+- Polishes links, code, etc.
 
 ## Drop-in Code
 
