@@ -1,22 +1,73 @@
 project:
   type: website
   output-dir: ../docs
+  render: 
+    - "*.qmd"               # render real site pages
+  resources: 
+    - assets/**             # copy static assets
+    - "!assets/**/*.qmd"    # but never copy .qmd slide sources
+
+execute: 
+  freeze: auto              # for faster builds
 
 website:
-  title: "mysite"
+  title: "Brian Harrold"
+  site-url: https://stat-brain.github.io/bharrold/
+  description: "Graduate student in statistics exploring Item Response Theory"
+  favicon: assets/bhat.svg
+  image: assets/headshot.jpeg
+  search: 
+    location: navbar
+    type: overlay
   navbar:
-    left:
+    collapse-below: lg
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: research.qmd       # add new files for each new page
+        text: Research
+      - text: Teaching
+        menu: 
+          - text: Overview
+            href: teaching.qmd
+          - text: College
+            href: college.qmd
+          - text: High School
+            href: high-school.qmd
+      - href: presentations.qmd
+        text: Presentations
+      - href: blog.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
+      - icon: github             # can add social media icons
+        href: https://github.com/stat-brain
+        aria-label: GitHub
+      - icon: LinkedIn
+        href: www.linkedin.com/in/brianharrold6
+        aria-label: LinkedIn
+  page-footer: 
+    left: "&copy; 2025 Brian Harrold"
+    right: "Built with Quarto. Hosted on GitHub."
+  repo-url: https://stat-brain.github.io/bharrold/
+  repo-actions: [source, issue]
+  
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+      - cosmo              # base Bootswatch
+      - brand              # your SCSS theme (optional)
+    css: styles.css        # extra tweaks (optional)
+    toc: true              # page sidebar
+    toc-location: right
+    anchor-sections: true  # adds linkable headings
+    code-tools: true
+    code-fold: show
+    lightbox: auto
+    smooth-scroll: true
+    math: mathjax
+    
 
 
 

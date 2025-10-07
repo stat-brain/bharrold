@@ -92,7 +92,7 @@ Tools -> Terminal -> New Terminal
 
 ## New Folder
 
-Open the new folder mysite/ in the Files pane.
+Open the new folder `mysite/` in the Files pane.
 
 * `_quarto.yml`
 * `index.qmd`
@@ -110,6 +110,11 @@ project:
 ## In the Terminal
 
 `quarto render mysite/`
+
+
+::: {.fragment}
+You should see a new `docs/` folder in the Files Pane.
+:::
 
 ## Pushing to GitHub
 
@@ -140,19 +145,56 @@ In GitHub:
 
 # Customization
 
+## `_quarto.yml` Project
 
+```yaml
+project:
+  type: website
+  output-dir: ../docs
+  render: 
+    - "*.qmd"               # render real site pages
+  resources: 
+    - assets/**             # copy static assets
+    - "!assets/**/*.qmd"    # but never copy .qmd slide sources
 
+execute: 
+  freeze: auto              # for faster builds
+```
 
+## `_quarto.yml` Website
 
+```yaml
+website:
+  title: "Brian Harrold"
+  site-url: https://stat-brain.github.io/bharrold/
+  search: true                   # allows users to search your site
+  navbar:
+    collapse-below: lg
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd       # add new files for each new page
+        text: Research
+      - href: about.qmd
+        text: About
+      - icon: github             # can add social media icons
+        href: https://github.com/stat-brain
+        aria-label: GitHub
+```
 
+## `_quarto.yml` Format
 
-
-## YAML
-
-
-
-
-
+```yaml
+format:
+  html:
+    theme:
+      - cosmo              # base Bootswatch
+      - brand              # your SCSS theme (optional)
+    css: styles.css        # extra tweaks (optional)
+    toc: true              # page sidebar
+    toc-location: right
+    anchor-sections: true  # adds linkable headings
+```
 
 ## Examples
 

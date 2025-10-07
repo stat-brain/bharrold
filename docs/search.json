@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "mysite",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Open Full Screen"
   },
   {
     "objectID": "about.html",
@@ -16,127 +16,148 @@
   {
     "objectID": "assets/training_session.html#motivation",
     "href": "assets/training_session.html#motivation",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Motivation",
     "text": "Motivation\n\nShow real work: authentic portfolio of papers, posters, code, datasets, and notebooks.\nReproducible examples: Quarto notebooks with math/citations.\nReal tooling & credibility: Git/GitHub workflow; issues/PRs show collaboration and history.\nOwn it + publish fast: portable repo, custom domain, free hosting via GitHub Pages."
   },
   {
     "objectID": "assets/training_session.html#agenda",
     "href": "assets/training_session.html#agenda",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Agenda",
     "text": "Agenda\n\nGetting started with GitHub\nReady to roll with RStudio\nQuick guide to Quarto\nCustomizing your content"
   },
   {
     "objectID": "assets/training_session.html#create-a-new-repository",
     "href": "assets/training_session.html#create-a-new-repository",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Create a New Repository",
     "text": "Create a New Repository\n\nLog in\nClick the green “New” button\nName it"
   },
   {
     "objectID": "assets/training_session.html#some-details",
     "href": "assets/training_session.html#some-details",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Some Details",
     "text": "Some Details\n\nGive it a professional-sounding name\nAdd a description\nChoose “Public” visibility\nAdd a README file"
   },
   {
     "objectID": "assets/training_session.html#why-public",
     "href": "assets/training_session.html#why-public",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Why Public?",
     "text": "Why Public?\nIf you want GitHub Pages to host your website for free, then the repository must be public. If you make your repository private, then you have to pay for GitHub to host your website."
   },
   {
     "objectID": "assets/training_session.html#create",
     "href": "assets/training_session.html#create",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Create",
     "text": "Create\nClick “Create”\n\nOnce created, copy the link to your repository from the URL"
   },
   {
     "objectID": "assets/training_session.html#open-the-repository",
     "href": "assets/training_session.html#open-the-repository",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Open the Repository",
     "text": "Open the Repository\n\nOpen RStudio\nFile -&gt; New Project -&gt; Version Control -&gt; Git\nPaste the URL (everything else should auto-fill)\nChoose a subdirectory\nClick “Create Project”"
   },
   {
     "objectID": "assets/training_session.html#check-it",
     "href": "assets/training_session.html#check-it",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Check it",
     "text": "Check it\nProject name should match the repository"
   },
   {
     "objectID": "assets/training_session.html#open-a-terminal",
     "href": "assets/training_session.html#open-a-terminal",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Open a Terminal",
     "text": "Open a Terminal\nTools -&gt; Terminal -&gt; New Terminal"
   },
   {
     "objectID": "assets/training_session.html#in-the-terminal",
     "href": "assets/training_session.html#in-the-terminal",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "In the Terminal",
     "text": "In the Terminal\nquarto create-project mysite --type website"
   },
   {
     "objectID": "assets/training_session.html#new-folder",
     "href": "assets/training_session.html#new-folder",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "New Folder",
     "text": "New Folder\nOpen the new folder mysite/ in the Files pane.\n\n_quarto.yml\nindex.qmd\nabout.qmd\nstyles.css"
   },
   {
     "objectID": "assets/training_session.html#in-_quarto.yml",
     "href": "assets/training_session.html#in-_quarto.yml",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "In _quarto.yml",
     "text": "In _quarto.yml\nproject:\n  type: website\n  output-dir: ../docs"
   },
   {
     "objectID": "assets/training_session.html#in-the-terminal-1",
     "href": "assets/training_session.html#in-the-terminal-1",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "In the Terminal",
-    "text": "In the Terminal\nquarto render mysite/"
+    "text": "In the Terminal\nquarto render mysite/\n\nYou should see a new docs/ folder in the Files Pane."
   },
   {
     "objectID": "assets/training_session.html#pushing-to-github",
     "href": "assets/training_session.html#pushing-to-github",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Pushing to GitHub",
     "text": "Pushing to GitHub\nUnder Git Options\n\nCommit… (Ctrl+Alt+M)\nCheck to “Stage” all updates\nAdd a commit message\nPress Commit\nPress Push"
   },
   {
     "objectID": "assets/training_session.html#deploying-pages",
     "href": "assets/training_session.html#deploying-pages",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Deploying Pages",
     "text": "Deploying Pages\nIn GitHub:\n\nSettings\nPages\nSource = Deploy from branch\nChoose main and /docs from the drop downs"
   },
   {
     "objectID": "assets/training_session.html#showing-the-link",
     "href": "assets/training_session.html#showing-the-link",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Showing the link",
     "text": "Showing the link\n\nGo to repository’s homepage\nLocate the About section\nClick the gear (Settings)\nCheck the box “Use Your GitHub Pages Website”\nClick Save Settings"
   },
   {
-    "objectID": "assets/training_session.html#yaml",
-    "href": "assets/training_session.html#yaml",
-    "title": "mysite",
-    "section": "YAML",
-    "text": "YAML"
+    "objectID": "assets/training_session.html#quarto.yml-project",
+    "href": "assets/training_session.html#quarto.yml-project",
+    "title": "Brian Harrold",
+    "section": "_quarto.yml Project",
+    "text": "_quarto.yml Project\nproject:\n  type: website\n  output-dir: ../docs\n  render: \n    - \"*.qmd\"               # render real site pages\n  resources: \n    - assets/**             # copy static assets\n    - \"!assets/**/*.qmd\"    # but never copy .qmd slide sources\n\nexecute: \n  freeze: auto              # for faster builds"
+  },
+  {
+    "objectID": "assets/training_session.html#quarto.yml-website",
+    "href": "assets/training_session.html#quarto.yml-website",
+    "title": "Brian Harrold",
+    "section": "_quarto.yml Website",
+    "text": "_quarto.yml Website\nwebsite:\n  title: \"Brian Harrold\"\n  site-url: https://stat-brain.github.io/bharrold/\n  search: true                   # allows users to search your site\n  navbar:\n    collapse-below: lg\n    right:\n      - href: index.qmd\n        text: Home\n      - href: research.qmd       # add new files for each new page\n        text: Research\n      - href: about.qmd\n        text: About\n      - icon: github             # can add social media icons\n        href: https://github.com/stat-brain\n        aria-label: GitHub"
+  },
+  {
+    "objectID": "assets/training_session.html#quarto.yml-format",
+    "href": "assets/training_session.html#quarto.yml-format",
+    "title": "Brian Harrold",
+    "section": "_quarto.yml Format",
+    "text": "_quarto.yml Format\nformat:\n  html:\n    theme:\n      - cosmo              # base Bootswatch\n      - brand              # your SCSS theme (optional)\n    css: styles.css        # extra tweaks (optional)\n    toc: true              # page sidebar\n    toc-location: right\n    anchor-sections: true  # adds linkable headings"
   },
   {
     "objectID": "assets/training_session.html#examples",
     "href": "assets/training_session.html#examples",
-    "title": "mysite",
+    "title": "Brian Harrold",
     "section": "Examples",
     "text": "Examples\n\nMy Professional Website\nBuilt into an R package\nA Great Example (Not Mine)\n\n\nNote: you can get a domain name and use that with your GitHub website"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brian Harrold",
+    "section": "",
+    "text": "Hi, I’m Brian\nI’m a graduate student in statistics at the University of South Carolina. This site shares my research, teaching materials, and R/Quarto tools.\n\n\n\n\nI build reproducible R/Quarto workflows for education data—bridging research, teaching, and open-source tools.\n\n\nResearch Teaching Presentations About"
   }
 ]
